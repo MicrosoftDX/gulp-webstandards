@@ -1,0 +1,45 @@
+{
+  "name": "gulp-webstandards",
+  "version": "0.1.0",
+  "description": "Gulp plugin that improves your site with modern web standards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Rami Sayar",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MicrosoftDX/gulp-webstandards"
+  },
+  "bugs": {
+    "url": "https://github.com/MicrosoftDX/gulp-webstandards/issues"
+  },
+  "keywords": [
+    "gulpplugin",
+    "webstandard",
+    "vorlon",
+    "gulp"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "html-entities": "^1.2.0",
+    "jsdom": "^7.2.0",
+    "lodash": "^3.10.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-typescript": "^2.9.2",
+    "mocha": "^2.3.4",
+    "run-sequence": "^1.1.5"
+  }
+}
