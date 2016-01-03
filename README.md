@@ -7,6 +7,8 @@ libraries, using responsive web design, if you're defining platform icons, using
 an appropriate meta viewport, not using HTML object and embed, avoiding conditional
 comments, using a modern doctype and more! Powered by [Vorlon.JS](http://www.vorlonjs.com/).
 
+![gulp-webstandards](https://raw.github.com/MicrosoftDX/gulp-webstandards/master/demo.gif)
+
 It is immediately usable as part of your Gulp workflow, see the example below.
 
 Installation
@@ -39,15 +41,14 @@ API
 ===
 
 ### webstandards()
-There are no parameters to pass. Pipe in your compiled HTML, CSS & JS files into the webstandards plugin 
-first, so that the Vinyl File object retains the file path.
+There are no parameters to pass. Pipe in your compiled HTML, CSS & JS files into the webstandards plugin first, so that the Vinyl File object retains the file path.
 
 Streams are not supported.
 
 Contributing
 ============
 
-Read CONTRIBUTING.md for more info on contributing to gulp-webstandards.
+Read [CONTRIBUTING.md](https://raw.githubusercontent.com/MicrosoftDX/gulp-webstandards/master/CONTRIBUTING.md) for more info on contributing to gulp-webstandards.
 
 License
 =======
@@ -55,4 +56,4 @@ License
 Copyright (c) Microsoft Corporation
 Licensed under the The MIT License (MIT)
 
-See LICENSE
+See [LICENSE](https://raw.githubusercontent.com/MicrosoftDX/gulp-webstandards/master/LICENSE)
