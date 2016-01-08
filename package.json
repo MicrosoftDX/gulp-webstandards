@@ -1,6 +1,6 @@
 {
   "name": "gulp-webstandards",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp plugin that improves your site with modern web standards.",
   "main": "index.js",
   "scripts": {
